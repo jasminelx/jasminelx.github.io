@@ -2,14 +2,28 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- SEO Metadata -->
   {%- seo -%}
+
+  <!-- FontAwesome Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700&display=swap">
+
+  <!-- ✅ Use Sorts Mill Goudy Instead of Nunito Sans -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:wght@400;700&display=swap">
+
+  <!-- ✅ Load Default Jekyll Styles -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+  <!-- ✅ Load Custom CSS (Your Styles) -->
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+
+  <!-- Google Analytics (Only on Production) -->
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
 
+  <!-- ✅ Keep Custom Head If You’re Using It -->
   {%- include custom-head.html -%}
   
 </head>
