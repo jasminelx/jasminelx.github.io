@@ -121,27 +121,31 @@ body {
   margin-bottom: 20px;
 }
 
-/* 🏠 Center the Home Page Content */
+/* 🏠 Center Everything on Home Page */
 .home-container {
-  text-align: center !important;  /* Forces centering */
-  max-width: 900px;
-  margin: auto;
-  padding-top: 40px;
+  display: flex !important;  /* Uses flexbox */
+  flex-direction: column !important;  /* Stacks items vertically */
+  align-items: center !important;  /* Centers horizontally */
+  justify-content: center !important;  /* Centers vertically */
+  text-align: center !important;  /* Ensures text is centered */
+  max-width: 100vw !important;  /* Full width */
+  margin: 0 auto !important;  /* Centers the whole div */
+  padding-top: 50px !important;  /* Adjust space under navbar */
 }
 
-/* 🎨 Fix Title Styling */
+/* 🎨 Fix Title */
 .home-title {
-  font-size: 5em !important; /* Huge title */
+  font-size: 5em !important;
   font-weight: bold !important;
   margin-top: 20px !important;
   display: block;
-  text-align: center !important; /* Forces centering */
+  text-align: center !important;
 }
 
-/* 📝 Fix Description Styling */
+/* 📝 Fix Description */
 .home-description {
   font-size: 1.5em !important;
   color: #333;
+  text-align: center !important;
   display: block;
-  text-align: center !important; /* Forces centering */
 }
