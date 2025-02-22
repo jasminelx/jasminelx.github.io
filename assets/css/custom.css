@@ -1,7 +1,7 @@
-/* Import the Sorts Mill Goudy font */
+/* 🎨 Import the Sorts Mill Goudy font */
 @import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:wght@400;700&display=swap');
 
-/* 🖋️ Set the default font */
+/* 🌍 Universal Styles */
 body {
   font-family: "Sorts Mill Goudy", serif;
   margin: 0;
@@ -11,16 +11,17 @@ body {
   line-height: 1.6;
 }
 
-/* 🎛️ Navbar Styles */
+/* 🏠 Navbar Styling */
 .navbar {
-  background: #f4f4f4; /* Light grey background */
-  padding: 10px 0;
+  background: #f4f4f4; /* Light grey */
+  padding: 15px 0;
   text-align: center;
   position: fixed;
   width: 100%;
   top: 0;
   left: 0;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
 }
 
 .navbar ul {
@@ -29,7 +30,7 @@ body {
   margin: 0;
   display: flex;
   justify-content: center;
-  gap: 20px; /* Space between links */
+  gap: 25px; /* Space between links */
 }
 
 .navbar li {
@@ -49,9 +50,9 @@ body {
   color: #555 !important;
 }
 
-/* 📜 Main Content (Moves Down to Avoid Navbar Overlap) */
+/* 📜 Main Content (Avoid Navbar Overlap) */
 .main-content {
-  padding-top: 60px; /* Makes space for the fixed navbar */
+  padding-top: 80px; /* Creates space under navbar */
   text-align: center;
 }
 
@@ -62,29 +63,85 @@ body {
   display: block;
 }
 
+/* 🏷️ Home Page Title & Description */
+.home-content {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.home-content h1 {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.home-content p {
+  font-size: 1.5em;
+}
+
+/* 📌 Universal Subpage Styling (Lists, Photography, etc.) */
+.subpage-container {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  padding-top: 80px; /* Creates space under navbar */
+}
+
+/* 🏷️ Title Styling (Big & Bold) */
+.subpage-container h1 {
+  font-size: 7em; /* 7x normal font size */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* 📝 Description Styling */
+.subpage-container p {
+  font-size: 1.5em;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+/* 📋 Blog Post List Styling */
+.subpage-posts {
+  text-align: left;
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+}
+
+/* 🔗 Style the Post Links */
+.subpage-posts li {
+  margin: 15px 0;
+  font-size: 1.2em;
+}
+
+/* 🎨 Remove Default Blue Link Color */
+.subpage-posts a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+/* 🖱️ Hover Effect */
+.subpage-posts a:hover {
+  color: #555;
+}
+
 /* ✅ Mobile Responsiveness */
 @media (max-width: 768px) {
   .navbar ul {
     flex-wrap: wrap;
   }
-}
-}
 
-/* Ensure Content is Centered */
-.home-content {
-  text-align: center;
-}
+  .subpage-container h1 {
+    font-size: 4em; /* Reduce size for smaller screens */
+  }
 
-/* 📝 Center the Lists Section */
-.lists-container {
-  text-align: center;
-  max-width: 800px;
-  margin: auto;
-  padding-top: 20px;
-}
+  .subpage-container p {
+    font-size: 1.2em;
+  }
 
-/* 🗂️ Make the List Items Left-Aligned (So They Don’t Center Too) */
-.lists-container ul {
-  text-align: left;
-  display: inline-block;
+  .navbar ul {
+    gap: 10px;
+  }
 }
