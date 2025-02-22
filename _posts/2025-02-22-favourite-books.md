@@ -1,20 +1,20 @@
 ---
 layout: post
-title: "📚 Favourite Books"
+title: "some very good books"
 date: 2025-02-22
 categories: lists
 ---
 
-random text that is currently nonsense 📖✨
+here is a list of books that i like. i dont want to attach labels like "favourite". are they my favourite? they might be. 
 
-## Fiction 📖
-- *Pride and Prejudice* – Jane Austen  
-- *The Secret History* – Donna Tartt  
-- *Circe* – Madeline Miller  
+- The Handmaid's Tale - Margaret Atwood
+- Catching Fire - Suzanne Collins
+- The Great Gatsby - F. Scott Fitzgerald
+- Yellowface - R. F. Kuang
+- An Absolutely Remarkable Thing - Hank Green
+- Gone Girl - Gillian Flynn
+- Project Hail Mary - Andy Weir
+- The Alignment Problem - Brian Christian
 
-## Non-Fiction 📚
-- *Sapiens* – Yuval Noah Harari  
-- *Atomic Habits* – James Clear  
-- *Educated* – Tara Westover  
 
-i havent read any of this!. 💬
+
