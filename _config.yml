@@ -7,7 +7,7 @@ collections:
     permalink: /books/:path/
   lists:
     output: true
-    permalink: /lists/:path/
+    permalink: /lists/:name/
   blog:
     output: true
     permalink: /blog/:path/
