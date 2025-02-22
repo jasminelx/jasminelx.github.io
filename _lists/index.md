@@ -6,15 +6,14 @@ permalink: /lists/
 
 <div class="lists-container">
   <h1>📋 Lists</h1>
-  <p>here are some lists i made. i like to write lists, and here they are. the fruits of my labour. my labour is writing lists</p>
+  <p>Here are some lists I made. I like to write lists, and here they are. The fruits of my labour. My labour is writing lists.</p>
 
   <!-- Blog posts will be listed here -->
-  <ul class="lists-posts">
-    {% for list in site.lists reversed %}
-      <li>
-        <a href="{{ list.url | relative_url }}">{{ list.title }}</a> 
-        <small>({{ list.date | date: "%B %d, %Y" }})</small>
-      </li>
+  <div class="lists-posts">
+    {% for post in site.categories.lists reversed %}
+      <p class="list-item">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </p>
     {% endfor %}
-  </ul>
+  </div>
 </div>
