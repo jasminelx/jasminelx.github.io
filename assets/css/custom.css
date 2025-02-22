@@ -112,3 +112,36 @@ body {
   margin-right: 1in; /* 1 inch from the right */
   padding-top: 1in;  /* 2 inches from the top */
 }
+
+/* 🏞️ Full-width Banner Image */
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* 🏠 Center the Home Page Content */
+.home-container {
+  text-align: center !important;  /* Forces centering */
+  max-width: 900px;
+  margin: auto;
+  padding-top: 40px;
+}
+
+/* 🎨 Fix Title Styling */
+.home-title {
+  font-size: 5em !important; /* Huge title */
+  font-weight: bold !important;
+  margin-top: 20px !important;
+  display: block;
+  text-align: center !important; /* Forces centering */
+}
+
+/* 📝 Fix Description Styling */
+.home-description {
+  font-size: 1.5em !important;
+  color: #333;
+  display: block;
+  text-align: center !important; /* Forces centering */
+}
