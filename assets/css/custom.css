@@ -1,50 +1,92 @@
-/* custom.css */
-
-/* Import the Nunito Sans font from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* Import the Sorts Mill Goudy font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:wght@400;700&display=swap');
 
 /* Set the default font for the body */
 body {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Sorts Mill Goudy", serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  font-size: 18px; /* Base font size */
+  line-height: 1.6;
 }
 
-/* Apply the font to headings as well */
+/* Apply the font to headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 700;
+  font-family: "Sorts Mill Goudy", serif;
+  font-weight: 700; /* Make titles and subheadings bold */
 }
+
+/* Set sizes: */
+.site-title {
+  font-size: 3em; /* 3x size of body text */
+  font-weight: bold;
+}
+
+h2, h3 {
+  font-size: 2em; /* 2x size of body text */
+  font-weight: bold;
+}
+
 /* Sidebar Styles */
 .sidebar {
-  width: 200px;
+  width: 220px;
   background: #f4f4f4;
   padding: 20px;
   position: fixed;
+  left: 0;
+  top: 0;
   height: 100%;
+  overflow-y: auto;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
 }
 
 .sidebar ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .sidebar li {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .sidebar a {
   text-decoration: none;
   color: black;
   font-weight: bold;
+  font-size: 18px;
+  display: block;
+  padding: 5px;
+  transition: color 0.3s ease;
 }
 
-/* Main Content */
+.sidebar a:hover {
+  color: #555;
+}
+
+/* Main Content (Push right so it doesn't overlap the sidebar) */
 .main-content {
-  margin-left: 220px;
+  margin-left: 250px; /* Sidebar width + some space */
   padding: 20px;
 }
 
-/* Banner */
+/* Banner Styling */
 .banner img {
   width: 100%;
   height: auto;
+  display: block;
+}
+
+/* Center the Home Page Title and Description */
+.home-container {
+  text-align: center;
+  margin: auto;
+  max-width: 800px;
+  padding-top: 20px;
+}
+
+/* Ensure Content is Centered */
+.home-content {
+  text-align: center;
 }
