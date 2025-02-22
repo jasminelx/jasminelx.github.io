@@ -1,7 +1,7 @@
-/* 🎨 Import the Sorts Mill Goudy font */
+/* Import the Sorts Mill Goudy font */
 @import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:wght@400;700&display=swap');
 
-/* 🌍 Universal Styles */
+/* 🖋️ Set the default font */
 body {
   font-family: "Sorts Mill Goudy", serif;
   margin: 0;
@@ -11,17 +11,16 @@ body {
   line-height: 1.6;
 }
 
-/* 🏠 Navbar Styling */
+/* 🎛️ Navbar Styles */
 .navbar {
-  background: #f4f4f4; /* Light grey */
-  padding: 15px 0;
+  background: #f4f4f4;
+  padding: 10px 0;
   text-align: center;
   position: fixed;
   width: 100%;
   top: 0;
   left: 0;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
 }
 
 .navbar ul {
@@ -30,7 +29,7 @@ body {
   margin: 0;
   display: flex;
   justify-content: center;
-  gap: 25px; /* Space between links */
+  gap: 20px; /* Space between links */
 }
 
 .navbar li {
@@ -50,98 +49,56 @@ body {
   color: #555 !important;
 }
 
-/* 📜 Main Content (Avoid Navbar Overlap) */
-.main-content {
-  padding-top: 80px; /* Creates space under navbar */
-  text-align: center;
-}
-
-/* 📸 Banner Image Styling */
-.banner img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-/* 🏷️ Home Page Title & Description */
-.home-content {
-  text-align: center;
-  padding-top: 30px;
-}
-
-.home-content h1 {
-  font-size: 4em;
-  font-weight: bold;
-}
-
-.home-content p {
-  font-size: 1.5em;
-}
-
-/* 📌 Universal Subpage Styling (Lists, Photography, etc.) */
-.subpage-container {
+/* 📜 Lists Page Styling */
+.lists-container {
   text-align: center;
   max-width: 800px;
   margin: auto;
-  padding-top: 80px; /* Creates space under navbar */
+  padding-top: 20px;
 }
 
-/* 🏷️ Title Styling (Big & Bold) */
-.subpage-container h1 {
-  font-size: 7em; /* 7x normal font size */
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-/* 📝 Description Styling */
-.subpage-container p {
-  font-size: 1.5em;
-  font-weight: normal;
-  margin-bottom: 30px;
-}
-
-/* 📋 Blog Post List Styling */
-.subpage-posts {
-  text-align: left;
-  display: inline-block;
-  list-style: none;
+/* 🔗 Blog Post Links - Centered & Styled */
+.lists-posts {
+  text-align: center; /* Centers the list */
+  list-style: none; /* Removes bullets */
   padding: 0;
+  margin-top: 20px;
 }
 
-/* 🔗 Style the Post Links */
-.subpage-posts li {
-  margin: 15px 0;
-  font-size: 1.2em;
+.lists-posts li {
+  margin: 10px 0;
+  font-size: 20px;
 }
 
-/* 🎨 Remove Default Blue Link Color */
-.subpage-posts a {
+.lists-posts a {
   text-decoration: none;
   color: black;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
-/* 🖱️ Hover Effect */
-.subpage-posts a:hover {
+.lists-posts a:hover {
   color: #555;
 }
 
-/* ✅ Mobile Responsiveness */
-@media (max-width: 768px) {
-  .navbar ul {
-    flex-wrap: wrap;
-  }
+/* 📝 Blog Post Page Styling */
+.blog-post {
+  max-width: 800px; /* Restrict width for readability */
+  margin: 50px auto; /* Centers it & adds top/bottom spacing */
+  padding: 20px;
+}
 
-  .subpage-container h1 {
-    font-size: 4em; /* Reduce size for smaller screens */
-  }
+/* 📢 Blog Post Title */
+.blog-post-title {
+  font-size: 5em; /* 5x bigger than normal text */
+  font-weight: bold;
+  margin-bottom: 20px;
+}
 
-  .subpage-container p {
-    font-size: 1.2em;
-  }
-
-  .navbar ul {
-    gap: 10px;
-  }
+/* 📝 Blog Post Content */
+.blog-post-content {
+  text-align: left;
+  margin-left: 1in;  /* 1 inch from the left */
+  margin-right: 1in; /* 1 inch from the right */
+  padding-top: 2in;  /* 2 inches from the top */
 }
