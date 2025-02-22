@@ -13,3 +13,38 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 700;
 }
+/* Sidebar Styles */
+.sidebar {
+  width: 200px;
+  background: #f4f4f4;
+  padding: 20px;
+  position: fixed;
+  height: 100%;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* Main Content */
+.main-content {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+/* Banner */
+.banner img {
+  width: 100%;
+  height: auto;
+}
