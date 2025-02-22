@@ -95,10 +95,20 @@ body {
   margin-bottom: 20px;
 }
 
+/* 📅 Blog Post Date (Under Title) */
+.blog-post .post-date {
+  font-size: 1em; /* Normal text size */
+  font-weight: normal;
+  text-align: center;
+  display: block;
+  margin-top: -10px; /* Slightly closer to title */
+  color: #666; /* Lighter gray for subtlety */
+}
+
 /* 📝 Blog Post Content */
 .blog-post-content {
   text-align: left;
   margin-left: 1in;  /* 1 inch from the left */
   margin-right: 1in; /* 1 inch from the right */
-  padding-top: 2in;  /* 2 inches from the top */
+  padding-top: 1in;  /* 2 inches from the top */
 }
