@@ -1,3 +1,22 @@
-title: "My JazJournal Site"
-description: "Ramblings, code, and book reviews"
-theme: minima
+collections:
+  music:
+    output: true
+    permalink: /music/:path/
+  books:
+    output: true
+    permalink: /books/:path/
+  lists:
+    output: true
+    permalink: /lists/:path/
+  blog:
+    output: true
+    permalink: /blog/:path/
+  photography:
+    output: true
+    permalink: /photography/:path/
+  world:
+    output: true
+    permalink: /world/:path/
+  climbing:
+    output: true
+    permalink: /climbing/:path/
