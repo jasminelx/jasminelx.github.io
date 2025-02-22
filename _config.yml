@@ -21,4 +21,4 @@ collections:
     output: true
     permalink: /climbing/:path/
 
-  google_analytics: G-CM261ZWH6W
+google_analytics: G-CM261ZWH6W
