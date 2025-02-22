@@ -1,4 +1,4 @@
-/* Import the Sorts Mill Goudy font from Google Fonts */
+/* Import the Sorts Mill Goudy font */
 @import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:wght@400;700&display=swap');
 
 /* 🖋️ Set the default font */
@@ -7,113 +7,52 @@ body {
   margin: 0;
   padding: 0;
   background-color: #ffffff;
-  font-size: 18px; /* Base font size */
+  font-size: 18px;
   line-height: 1.6;
 }
 
-/* 🏷️ Apply the font to headings */
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Sorts Mill Goudy", serif;
-  font-weight: 700;
-}
-
-/* 🏠 Home Page Styles (Centers Content) */
-.home-container {
-  text-align: center;
-  margin: auto;
-  max-width: 800px;
-  padding-top: 20px;
-}
-
-/* 🏷️ Set font sizes */
-.site-title {
-  font-size: 4em;
-  font-weight: bold;
-}
-
-h2, h3 {
-  font-size: 2em;
-  font-weight: bold;
-}
-
-/* 🎛️ Header Navigation Menu */
-.site-header {
-  background: #f4f4f4;
+/* 🎛️ Navbar Styles */
+.navbar {
+  background: #f4f4f4; /* Light grey background */
   padding: 10px 0;
   text-align: center;
-}
-
-.site-header nav ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  gap: 20px; /* Spacing between links */
-}
-
-.site-header nav ul li {
-  display: inline;
-}
-
-.site-header nav ul li a {
-  text-decoration: none;
-  color: black !important;
-  font-weight: bold;
-  font-size: 18px;
-}
-
-.site-header nav ul li a:hover {
-  color: #555 !important;
-}
-
-/* 📌 Sidebar Styles */
-.sidebar {
-  width: 220px;
-  background: #f4f4f4;
-  padding: 20px;
   position: fixed;
-  left: 0;
+  width: 100%;
   top: 0;
-  height: 100%;
-  overflow-y: auto;
-  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+  left: 0;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* ❌ Removed "Sections" Heading */
-.sidebar h2 {
-  display: none; /* Hide the extra heading */
-}
-
-/* 📋 Sidebar List Styles */
-.sidebar ul {
+.navbar ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between links */
 }
 
-.sidebar li {
-  margin-bottom: 15px;
+.navbar li {
+  display: inline;
 }
 
-/* 🔗 Sidebar Links: Make Them Black */
-.sidebar a {
+.navbar li a {
   text-decoration: none;
   color: black !important;
   font-weight: bold;
   font-size: 18px;
-  display: block;
-  padding: 5px;
+  padding: 10px;
   transition: color 0.3s ease;
 }
 
-.sidebar a:hover {
+.navbar li a:hover {
   color: #555 !important;
 }
 
-/* 📜 Main Content (Shift Right to Avoid Overlapping Sidebar) */
+/* 📜 Main Content (Moves Down to Avoid Navbar Overlap) */
 .main-content {
-  margin-left: 250px; /* Sidebar width + spacing */
-  padding: 20px;
+  padding-top: 60px; /* Makes space for the fixed navbar */
+  text-align: center;
 }
 
 /* 📸 Banner Image Styling */
@@ -125,30 +64,7 @@ h2, h3 {
 
 /* ✅ Mobile Responsiveness */
 @media (max-width: 768px) {
-  .sidebar {
-    width: 100%;
-    height: auto;
-    position: relative;
-    text-align: center;
-  }
-
-  .sidebar ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 10px;
-  }
-
-  .sidebar li {
-    margin: 5px;
-  }
-
-  .main-content {
-    margin-left: 0;
-    padding: 10px;
-  }
-
-  .site-header nav ul {
+  .navbar ul {
     flex-wrap: wrap;
   }
 }
