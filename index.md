@@ -8,7 +8,7 @@ headline: Hi, I'm Your Name.
 photos:
   - src: /img/me.png
     alt: me!
-  - src: /img/harp.jpg
+  - src: /img/harpy.png
     alt: me performing the harp!
   - src: /img/placeholder-2.svg
     alt: Something else
