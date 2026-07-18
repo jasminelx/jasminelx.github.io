@@ -8,8 +8,8 @@
 # Copy a two-line block (src + alt) to add another photo.
 # "alt" is a short description (helps blind visitors & Google).
 photos:
-  - src: /img/placeholder-1.svg
-    alt: describe this photo
+  - src: /img/me.HEIC
+    alt: me!
   - src: /img/placeholder-2.svg
     alt: describe this photo
   - src: /img/placeholder-3.svg
