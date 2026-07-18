@@ -4,28 +4,23 @@
 # ============================================================
 
 # Your name — appears in the header, footer, and page titles
-name: Your Name
+name: Jasmine Lever
 
 # The one-liner under "Contact" heading
 contact_intro: Want to work together, or just say hello? Here's where to find me.
 
 # Your email
-email: you@example.com
+email: jasminetlever@gmail.com
 
 # A note at the bottom of the contact page (delete the text if not wanted)
-contact_note: Based in the North East of England. I usually reply within a day or two.
+contact_note: Based in London. I usually reply within a day or two.
 
 # Your links — edit, delete rows, or add more following the same pattern
 socials:
-  - label: GitHub
-    handle: "@yourusername"
-    url: https://github.com/yourusername
   - label: Instagram
-    handle: "@yourusername"
-    url: https://instagram.com/yourusername
+    handle: "@jasmine_leverx"
   - label: LinkedIn
-    handle: /in/yourusername
-    url: https://www.linkedin.com/in/yourusername
+    url: www.linkedin.com/in/jasmine-lever-6877b9291
 
 # ============================================================
 #  Technical bits — leave everything below alone
