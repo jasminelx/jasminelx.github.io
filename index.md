@@ -14,7 +14,7 @@ photos:
     alt: Something else
 ---
 
-Write about yourself here, in plain text. This is normal writing — no code needed.
+I'm Jasmine! 
 
 Blank line = new paragraph. That's it. You can also make text **bold** or *italic* like that, and [make a link like this](https://example.com).
 
