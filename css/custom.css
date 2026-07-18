@@ -1,0 +1,25 @@
+/* Your own tweaks go here — this loads after Brite, so anything
+   you add in this file wins over the theme. */
+
+/* Smooth scrolling when clicking the navbar links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Keep the hero photo a sensible size */
+.hero-photo {
+  max-width: 260px;
+}
+
+/* Cards lift slightly on hover — a little life, not a circus */
+.card {
+  transition: transform 0.15s ease;
+}
+.card:hover {
+  transform: translate(-2px, -2px);
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .card { transition: none; }
+  .card:hover { transform: none; }
+}

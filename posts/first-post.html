@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- EDIT: post title -->
+  <title>My first post — Your Name</title>
+
+  <!-- Note the ../ — this file lives one folder deeper than index.html -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/custom.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-md bg-primary sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="../index.html">yourname.com</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="../index.html#work">Work</a></li>
+          <li class="nav-item"><a class="nav-link" href="../index.html#blog">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="../index.html#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="../index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+
+          <!-- EDIT: title and date -->
+          <h1 class="display-5 fw-bold mb-2">My first post</h1>
+          <p class="text-body-secondary mb-4">18 July 2026</p>
+
+          <hr class="border-dark border-2 opacity-100 mb-4">
+
+          <!-- EDIT: write your post here. Each paragraph goes in a <p> tag. -->
+          <p class="lead">An opening line that sets up what this post is about.</p>
+
+          <p>Regular paragraphs look like this. Just keep adding
+            <code>&lt;p&gt;</code> tags for each new paragraph.</p>
+
+          <h2 class="h4 fw-bold mt-4">A subheading</h2>
+          <p>Use <code>&lt;h2&gt;</code> tags to break long posts into sections.</p>
+
+          <blockquote class="blockquote border-start border-dark border-4 ps-3 my-4">
+            <p>Quotes look like this if you ever need one.</p>
+          </blockquote>
+
+          <p>To add a picture, put the image file in the <code>img</code> folder and use:<br>
+            <code>&lt;img src="../img/photo.jpg" class="img-fluid border border-dark border-2 my-3" alt="describe the photo"&gt;</code>
+          </p>
+
+          <hr class="border-dark border-2 opacity-100 my-4">
+          <a href="../index.html#blog" class="btn btn-outline-dark">&larr; Back to all posts</a>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="py-4 bg-dark text-light">
+    <div class="container">
+      <p class="mb-0 small">© 2026 Your Name.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
