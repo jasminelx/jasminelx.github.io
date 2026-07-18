@@ -6,7 +6,7 @@ headline: Hi, I'm Your Name.
 # The photos on the right (first one is big, next two are small).
 # Put your photos in the img folder and change the filenames here:
 photos:
-  - src: /img/placeholder-1.svg
+  - src: /img/me.png
     alt: A photo of me
   - src: /img/placeholder-2.svg
     alt: Something I like
