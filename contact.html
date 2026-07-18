@@ -1,0 +1,35 @@
+---
+layout: default
+nav: contact
+title: Contact
+permalink: /contact/
+---
+<main class="py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-7">
+
+        <h1 class="display-4 fw-bold mb-4">Contact</h1>
+        <p class="lead mb-5">{{ site.contact_intro }}</p>
+
+        <div class="card">
+          <div class="card-body p-4">
+            <div class="d-flex justify-content-between border-bottom border-dark py-3">
+              <span class="fw-bold">Email</span>
+              <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+            </div>
+            {% for s in site.socials %}
+            <div class="d-flex justify-content-between py-3{% unless forloop.last %} border-bottom border-dark{% endunless %}">
+              <span class="fw-bold">{{ s.label }}</span>
+              <a href="{{ s.url }}">{{ s.handle }}</a>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+
+        {% if site.contact_note %}<p class="mt-4 text-body-secondary">{{ site.contact_note }}</p>{% endif %}
+
+      </div>
+    </div>
+  </div>
+</main>

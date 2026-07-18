@@ -1,0 +1,48 @@
+# ============================================================
+#  YOUR SITE SETTINGS — edit this file freely
+#  Everything after a # is a comment (instructions for you)
+# ============================================================
+
+# Your name — appears in the header, footer, and page titles
+name: Your Name
+
+# The one-liner under "Contact" heading
+contact_intro: Want to work together, or just say hello? Here's where to find me.
+
+# Your email
+email: you@example.com
+
+# A note at the bottom of the contact page (delete the text if not wanted)
+contact_note: Based in the North East of England. I usually reply within a day or two.
+
+# Your links — edit, delete rows, or add more following the same pattern
+socials:
+  - label: GitHub
+    handle: "@yourusername"
+    url: https://github.com/yourusername
+  - label: Instagram
+    handle: "@yourusername"
+    url: https://instagram.com/yourusername
+  - label: LinkedIn
+    handle: /in/yourusername
+    url: https://www.linkedin.com/in/yourusername
+
+# ============================================================
+#  Technical bits — leave everything below alone
+# ============================================================
+collections:
+  projects:
+    output: true
+    permalink: /portfolio/:name/
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+markdown: kramdown

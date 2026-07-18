@@ -1,0 +1,31 @@
+---
+layout: default
+nav: portfolio
+title: Portfolio
+# EDIT the intro line below if you like:
+intro: Things I've made. Click any of them for the full story.
+permalink: /portfolio/
+---
+<main class="py-5">
+  <div class="container">
+
+    <h1 class="display-4 fw-bold mb-4">Portfolio</h1>
+    <p class="lead mb-5">{{ page.intro }}</p>
+
+    <div class="row g-4">
+      {% assign works = site.projects | sort: "order" %}
+      {% for work in works %}
+      <div class="col-md-6 col-lg-4">
+        <a href="{{ work.url }}" class="card h-100 text-decoration-none">
+          {% if work.image %}<img src="{{ work.image }}" class="card-img-top border-bottom border-dark border-3" alt="{{ work.title }}">{% endif %}
+          <div class="card-body">
+            <h2 class="card-title h5 fw-bold">{{ work.title }}</h2>
+            {% if work.summary %}<p class="card-text text-body">{{ work.summary }}</p>{% endif %}
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</main>

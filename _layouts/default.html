@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.name }}</title>
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/custom.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-md bg-primary sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="/">{{ site.name }}</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link{% if page.nav == 'blog' %} active{% endif %}" href="/blog/">Blog</a></li>
+          <li class="nav-item"><a class="nav-link{% if page.nav == 'portfolio' %} active{% endif %}" href="/portfolio/">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link{% if page.nav == 'contact' %} active{% endif %}" href="/contact/">Contact</a></li>
+          <li class="nav-item"><a class="nav-link{% if page.nav == 'other' %} active{% endif %}" href="/other/">Other</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  {{ content }}
+
+  <footer class="py-4 bg-dark text-light mt-5">
+    <div class="container d-flex justify-content-between flex-wrap gap-2">
+      <span class="small">© 2026 {{ site.name }}</span>
+      <span class="small"><a href="/contact/" class="link-light">Get in touch</a></span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

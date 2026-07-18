@@ -1,0 +1,32 @@
+---
+layout: default
+nav: portfolio
+---
+<main class="py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-9">
+
+        <h1 class="display-5 fw-bold mb-2">{{ page.title }}</h1>
+        {% if page.summary %}<p class="lead text-body-secondary mb-4">{{ page.summary }}</p>{% endif %}
+
+        <div class="d-flex flex-wrap gap-2 mb-4">
+          {% if page.year %}<span class="badge text-bg-warning">{{ page.year }}</span>{% endif %}
+          {% for tag in page.tags %}<span class="badge text-bg-light border border-dark">{{ tag }}</span>{% endfor %}
+        </div>
+
+        {% if page.image %}<img src="{{ page.image }}" class="img-fluid border border-dark border-3 mb-4 w-100" alt="{{ page.title }}">{% endif %}
+
+        <div class="post-body">
+          {{ content }}
+        </div>
+
+        {% if page.link %}<a href="{{ page.link }}" class="btn btn-primary btn-lg mt-3">Visit the project</a>{% endif %}
+
+        <hr class="border-dark border-2 opacity-100 my-4">
+        <a href="/portfolio/" class="btn btn-outline-dark">&larr; All work</a>
+
+      </div>
+    </div>
+  </div>
+</main>

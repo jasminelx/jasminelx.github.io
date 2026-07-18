@@ -1,0 +1,32 @@
+---
+layout: default
+nav: blog
+title: Blog
+# EDIT the intro line below if you like:
+intro: Occasional writing about whatever's on my mind.
+permalink: /blog/
+---
+<main class="py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+
+        <h1 class="display-4 fw-bold mb-4">Blog</h1>
+        <p class="lead mb-5">{{ page.intro }}</p>
+
+        <div class="list-group">
+          {% for post in site.posts %}
+          <a href="{{ post.url }}" class="list-group-item list-group-item-action p-4">
+            <div class="d-flex w-100 justify-content-between">
+              <h2 class="h5 fw-bold mb-1">{{ post.title }}</h2>
+              <small class="text-body-secondary text-nowrap ms-3">{{ post.date | date: "%-d %b %Y" }}</small>
+            </div>
+            {% if post.teaser %}<p class="mb-0">{{ post.teaser }}</p>{% endif %}
+          </a>
+          {% endfor %}
+        </div>
+
+      </div>
+    </div>
+  </div>
+</main>

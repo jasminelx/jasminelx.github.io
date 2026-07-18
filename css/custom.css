@@ -1,25 +1,26 @@
-/* Your own tweaks go here — this loads after Brite, so anything
-   you add in this file wins over the theme. */
+/* Your own tweaks — loads after Brite, so this file wins. */
 
-/* Smooth scrolling when clicking the navbar links */
-html {
-  scroll-behavior: smooth;
-}
+html { scroll-behavior: smooth; }
 
-/* Keep the hero photo a sensible size */
-.hero-photo {
-  max-width: 260px;
-}
+.card { transition: transform 0.15s ease; }
+a.card:hover { transform: translate(-2px, -2px); }
 
-/* Cards lift slightly on hover — a little life, not a circus */
-.card {
-  transition: transform 0.15s ease;
-}
-.card:hover {
-  transform: translate(-2px, -2px);
-}
+/* Masonry-style collage on the Other page */
+.collage { column-count: 3; column-gap: 1rem; }
+.collage img { width: 100%; margin-bottom: 1rem; display: block; }
+@media (max-width: 767px) { .collage { column-count: 2; } }
+@media (max-width: 480px) { .collage { column-count: 1; } }
+
+/* Blog post / project body: nicer spacing, bordered images */
+.post-body img { max-width: 100%; border: 3px solid #111; margin: 1rem 0; }
+.post-body h2, .post-body h3 { font-weight: 700; margin-top: 1.75rem; }
+.post-body blockquote { border-left: 4px solid #111; padding-left: 1rem; margin: 1.5rem 0; }
+
+/* First paragraph of the homepage about text reads bigger */
+.lead-first > p:first-child { font-size: 1.25rem; font-weight: 300; }
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .card { transition: none; }
-  .card:hover { transform: none; }
+  a.card:hover { transform: none; }
 }
