@@ -7,15 +7,15 @@ headline: Hi, I'm Your Name.
 # Put your photos in the img folder and change the filenames here:
 photos:
   - src: /img/me.png
-    alt: A photo of me
+    alt: me!
+  - src: /img/harp.jpg
+    alt: me performing the harp!
   - src: /img/placeholder-2.svg
-    alt: Something I like
-  - src: /img/placeholder-3.svg
     alt: Something else
 ---
 
 I'm Jasmine! 
 
-Blank line = new paragraph. That's it. You can also make text **bold** or *italic* like that, and [make a link like this](https://example.com).
+I'm a musician, theatremaker and AI safety fieldbuilder. 
 
-Add as many paragraphs as you like. Delete all of this and write your own.
+This is a space where I can talk about those things, usually separately.
