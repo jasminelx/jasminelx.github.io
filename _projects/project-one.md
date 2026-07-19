@@ -4,7 +4,7 @@ summary: An absurdist comedy by Eugene Ionesco.
 year: 2026
 tags: [Theatre, Directing]
 image: /img/poster.JPG
-link: 
+link: https://www.instagram.com/p/DRPJozaiM2q/?hl=en&img_index=1
 order: 1
 ---
 
