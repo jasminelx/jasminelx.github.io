@@ -7,7 +7,17 @@ a.card:hover { transform: translate(-2px, -2px); }
 
 /* Masonry-style collage on the Other page */
 .collage { column-count: 3; column-gap: 1rem; }
-.collage img { width: 100%; margin-bottom: 1rem; display: block; }
+.collage-item { break-inside: avoid; margin: 0 0 1rem; }
+.collage img { width: 100%; display: block; }
+.collage figcaption {
+  background: #111;
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.35rem 0.6rem;
+  border: 3px solid #111;
+  border-top: none;
+}
 @media (max-width: 767px) { .collage { column-count: 2; } }
 @media (max-width: 480px) { .collage { column-count: 1; } }
 
