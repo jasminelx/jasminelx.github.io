@@ -3,7 +3,7 @@ title: Undergrad Final Project
 summary: 'Evaluating Manipulative Language Taxonomies for Human and LLM-Based Classification of Political Advertisements'
 year: 2026
 tags: [Research]
-image: /img/placeholder-2.svg
+image: /img/kings.png
 link: https://github.com/jasminelx/Manipulative-Language-Detection
 order: 2
 ---
