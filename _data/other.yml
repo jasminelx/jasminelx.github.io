@@ -10,22 +10,22 @@
 photos:
   - src: /img/me.HEIC
     alt: me!
-  - src: /img/placeholder-2.svg
-    alt: describe this photo
-  - src: /img/placeholder-3.svg
-    alt: describe this photo
-  - src: /img/placeholder-2.svg
-    alt: describe this photo
-  - src: /img/placeholder-1.svg
-    alt: describe this photo
+  - src: /img/cast.jpg
+    alt: Me and the cast of my play, Rhinoceros!
+  - src: /img/wedding.jpg
+    alt: Me performing harp at a wedding in 2025!
+  - src: /img/plastic.jpg
+    alt: A photo from the short play I wrote, Plastic
+  - src: /img/seagull.JPG
+    alt: Me rehearsing my role in the play Seagull!
 
 # --- QUOTES ---
 # Copy a two-line block (text + by) to add another quote.
 quotes:
-  - text: Put a quote you like here.
-    by: Who said it
-  - text: Another one here.
-    by: Who said it
+  - text: Whatever you now find weird, ugly, uncomfortable and nasty about a new medium will surely become its signature.
+    by: Brian Eno
+  - text: 
+    by: 
 
 # --- CURRENTLY ---
 # A little list of whatever you're into right now.
