@@ -2,20 +2,13 @@
 layout: home
 # ---- HOME PAGE SETTINGS ----
 # The big headline:
-headline: Hi, I'm Your Name.
+headline: Hi, I'm Jasmine.
 # The photos on the right (first one is big, next two are small).
 # Put your photos in the img folder and change the filenames here:
 photos:
   - src: /img/me.png
     alt: me!
-  - src: /img/harpy.png
-    alt: me performing the harp!
-  - src: /img/placeholder-2.svg
-    alt: Something else
 ---
 
-I'm Jasmine! 
 
-I'm a musician, theatremaker and AI safety fieldbuilder. 
-
-This is a space where I can talk about those things, usually separately.
+This is a space where I talk about AI safety, music and theatremaking. 
