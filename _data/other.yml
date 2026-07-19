@@ -9,13 +9,17 @@
 # "alt" is a short description (helps blind visitors & Google).
 photos:
   - src: /img/cast.jpg
-    alt: Me and the cast of my play, Rhinoceros!
+    alt: Me and the cast of my play, Rhinoceros
+    caption: The cast of my play Rhinoceros, January 2026!
   - src: /img/wedding.jpg
-    alt: Me performing harp at a wedding in 2025!
+    alt: Me performing harp at a wedding
+    caption: Harp at a wedding, August 2025
   - src: /img/plastic.jpg
-    alt: A photo from the short play I wrote, Plastic
+    alt: A scene from my short play Plastic, February 2026
+    caption: From my short play, Plastic
   - src: /img/mixer.jpg
-    alt: Me at LIaiSE's first mixer!
+    alt: Me at LIaiSE's first mixer
+    caption: LIaiSE's first mixer, July 2026!
 
 # --- QUOTES ---
 # Copy a two-line block (text + by) to add another quote.
