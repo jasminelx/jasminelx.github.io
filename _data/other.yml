@@ -8,8 +8,6 @@
 # Copy a two-line block (src + alt) to add another photo.
 # "alt" is a short description (helps blind visitors & Google).
 photos:
-  - src: /img/me.HEIC
-    alt: me!
   - src: /img/cast.jpg
     alt: Me and the cast of my play, Rhinoceros!
   - src: /img/wedding.jpg
@@ -24,15 +22,15 @@ photos:
 quotes:
   - text: Whatever you now find weird, ugly, uncomfortable and nasty about a new medium will surely become its signature.
     by: Brian Eno
-  - text: 
-    by: 
+  - text: Channel your inner whimsy.
+    by: My friend Jemima
 
 # --- CURRENTLY ---
 # A little list of whatever you're into right now.
 currently:
   - label: Reading
-    value: a book title
+    value: Good Omens 
   - label: Listening to
-    value: an album or artist
-  - label: Obsessed with
-    value: anything at all
+    value: The Pale Fountains
+  - label: Learning
+    value: How to rollerblade!
