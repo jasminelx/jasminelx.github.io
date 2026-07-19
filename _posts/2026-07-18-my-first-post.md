@@ -5,7 +5,7 @@ teaser: An introduction to the person that this website is about.
 
 Hello! If you're reading this, you've had to click on several things, so thank you for sticking with me to this point and clicking on them. 
 
-My name is Jasmine, I'm 21 and I recently graduated from Kings College London. There, I studied Artificial Intelligence. But I also:
+My name is Jasmine, I'm 21 and I recently graduated from King's College London. There, I studied Artificial Intelligence. But I also:
 
 - Ran improv sessions for the Kings Players theatre society
 - Directed Ionesco's 'Rhinoceros' for that same theatre society
