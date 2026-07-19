@@ -8,17 +8,17 @@ permalink: /other/
 ---
 <main class="py-5">
   <div class="container">
-
     <h1 class="display-4 fw-bold mb-2">Other</h1>
     <p class="lead mb-5">{{ page.intro }}</p>
-
     <h2 class="h3 fw-bold mb-3">Photos</h2>
     <div class="collage mb-5">
       {% for photo in site.data.other.photos %}
-      <img src="{{ photo.src }}" class="border border-dark border-3" alt="{{ photo.alt }}">
+      <figure class="collage-item">
+        <img src="{{ photo.src }}" class="border border-dark border-3" alt="{{ photo.alt }}">
+        {% if photo.caption %}<figcaption>{{ photo.caption }}</figcaption>{% endif %}
+      </figure>
       {% endfor %}
     </div>
-
     <h2 class="h3 fw-bold mb-3">Cool quotes!</h2>
     <div class="row g-4 mb-5">
       {% assign tints = "warning,info,success,danger" | split: "," %}
@@ -32,13 +32,14 @@ permalink: /other/
       </div>
       {% endfor %}
     </div>
-
     <h2 class="h3 fw-bold mb-3">Currently</h2>
     <ul class="list-group">
       {% for item in site.data.other.currently %}
       <li class="list-group-item"><strong>{{ item.label }}:</strong> {{ item.value }}</li>
       {% endfor %}
     </ul>
+  </div>
+</main>
 
   </div>
 </main>
