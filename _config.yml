@@ -19,8 +19,10 @@ contact_note: Based in London. I usually reply within a day or two.
 socials:
   - label: Instagram
     handle: "@jasmine_leverx"
+    url: https://instagram.com/jasmine_leverx
   - label: LinkedIn
-    url: www.linkedin.com/in/jasmine-lever-6877b9291
+    handle: /in/jasmine-lever
+    url: https://www.linkedin.com/in/jasmine-lever-6877b9291
 
 # ============================================================
 #  Technical bits — leave everything below alone
