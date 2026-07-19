@@ -11,4 +11,4 @@ photos:
 ---
 
 
-This is a space where I talk about AI safety, music and theatremaking. 
+A space for all my thoughts on AI safety, theatre and music.
