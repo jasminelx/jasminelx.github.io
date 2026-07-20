@@ -22,10 +22,10 @@ permalink: /cv/
           <span class="text-body-secondary">September 2023 – June 2026</span>
         </div>
         <ul class="mb-4">
-          <li>First-class honours</li>
-          <li>Final project: 'Evaluating Manipulative Language Taxonomies for Human and LLM-Based Classification of Political Advertisements'</li>
-          <li>Undertook modules including machine learning, advanced logic, philosophy of AI and computer vision</li>
-          <li>Student representative for the BSc Artificial Intelligence degree</li>
+          <li>First-class honours.</li>
+          <li>Final project: 'Evaluating Manipulative Language Taxonomies for Human and LLM-Based Classification of Political Advertisements'.</li>
+          <li>Undertook modules including machine learning, advanced logic, philosophy of AI and computer vision.</li>
+          <li>Student representative for the BSc Artificial Intelligence degree.</li>
         </ul>
 
         <div class="d-flex justify-content-between flex-wrap mb-1">
@@ -33,7 +33,7 @@ permalink: /cv/
           <span class="text-body-secondary">September 2018 – July 2023</span>
         </div>
         <ul class="mb-5">
-          <li>A Levels: A in Mathematics, A* in English Literature and A* in Philosophy</li>
+          <li>A Levels: A in Mathematics, A* in English Literature and A* in Philosophy.</li>
         </ul>
 
         <h2 class="h3 fw-bold border-bottom border-dark border-2 pb-2 mb-4">Experience</h2>
@@ -44,7 +44,7 @@ permalink: /cv/
         </div>
         <ul class="mb-4">
           <li>Responsible for online content, community engagement and written work engaging midcareer professionals looking to pivot into AI safety careers. Managing the community Slack channel of 37 members.</li>
-          <li>Organising and facilitating in-person fieldbuilding events for 20+ participants</li>
+          <li>Organising and facilitating in-person fieldbuilding events for 20+ participants.</li>
         </ul>
 
         <div class="d-flex justify-content-between flex-wrap mb-1">
@@ -52,9 +52,9 @@ permalink: /cv/
           <span class="text-body-secondary">September 2025 – June 2026</span>
         </div>
         <ul class="mb-4">
-          <li>Ran weekly improv sessions for up to 40 participants fostering an inclusive, welcoming community</li>
-          <li>Acted as front of house for student theatre performances, hosting audiences and managing the space on the night</li>
-          <li>Contributed to committee decision-making and event planning across the society</li>
+          <li>Ran weekly improv sessions for up to 40 participants fostering an inclusive, welcoming community.</li>
+          <li>Acted as front of house for student theatre performances, hosting audiences and managing the space on the night.</li>
+          <li>Contributed to committee decision-making and event planning across the society.</li>
         </ul>
 
         <div class="d-flex justify-content-between flex-wrap mb-1">
@@ -70,8 +70,8 @@ permalink: /cv/
           <span class="text-body-secondary">May 2025 – June 2025</span>
         </div>
         <ul class="mb-4">
-          <li>Selected for The Old Vic's Front Line programme; worked as front of house, usher and café staff</li>
-          <li>Supported a theatre workshop engaging elderly participants</li>
+          <li>Selected for The Old Vic's Front Line programme; worked as front of house, usher and café staff.</li>
+          <li>Supported a theatre workshop engaging elderly participants.</li>
         </ul>
 
         <div class="d-flex justify-content-between flex-wrap mb-1">
@@ -79,8 +79,8 @@ permalink: /cv/
           <span class="text-body-secondary">June 2021 – August 2023</span>
         </div>
         <ul class="mb-4">
-          <li>Tutored harp, piano and English to up to 10 students a week of all ages and abilities</li>
-          <li>Constructed engaging, personalised lesson plans and managed all scheduling, advertising and client communications</li>
+          <li>Tutored harp, piano and English to up to 10 students a week of all ages and abilities.</li>
+          <li>Constructed engaging, personalised lesson plans and managed all scheduling, advertising and client communications.</li>
         </ul>
 
         <div class="d-flex justify-content-between flex-wrap mb-1">
@@ -88,14 +88,14 @@ permalink: /cv/
           <span class="text-body-secondary">September 2020 – August 2023</span>
         </div>
         <ul class="mb-5">
-          <li>Planned and led engaging theatre-based exercises for a group of over 40 young people</li>
+          <li>Planned and led engaging theatre-based exercises for a group of over 40 young people.</li>
         </ul>
 
         <h2 class="h3 fw-bold border-bottom border-dark border-2 pb-2 mb-4">Skills</h2>
         <ul>
-          <li>Confident in events logistics, scheduling, and data handling using tools including Asana, Slack, Canva, Google Workspace and Airtable</li>
+          <li>Confident in events logistics, scheduling, and data handling using tools including Asana, Slack, Canva, Google Workspace and Airtable.</li>
           <li>Actress, director, writer and professional musician. Regularly perform harp at weddings and other events.</li>
-          <li>Level 1 British Sign Language</li>
+          <li>Level 1 British Sign Language.</li>
         </ul>
 
       </div>
